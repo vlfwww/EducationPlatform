@@ -9,3 +9,7 @@
     align-items: center;
     justify-content: center;
 }
+.one:hover{
+    background-color: rgba(89, 150, 165, 1);
+    color: white;
+}

@@ -1,5 +1,5 @@
 import style from "./Courses.module.css";
-import Header from "./Components/Header/index.js";
+import Header from "./Components/HeaderCourses/index.js";
 import Footer from "../Components/Footer";
 import img1 from "./image/img1.png";
 import img2 from "./image/img2.png";
@@ -32,7 +32,7 @@ function Courses() {
   return (
     <div className={style.first}>
       <Header />
-      <main>
+      <main className={style.courses}>
         <div className={style.title}>
           <img src={img1} alt="img" />
           <p>Courses</p>

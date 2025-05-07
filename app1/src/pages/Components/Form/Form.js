@@ -8,7 +8,7 @@ function Form(obj) {
     <div className="App">
       <div className={style.first}>
         <Header />
-        <main>
+        <main className={style.form}>
           <div className={style.left}>
             <h1>{obj.title}</h1>
             <div>

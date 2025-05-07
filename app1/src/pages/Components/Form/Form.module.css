@@ -2,7 +2,7 @@
 .first{
     background-color: rgba(246, 245, 244, 1);
 }
-main{
+.form {
     display: flex;
     justify-content: space-between;
     max-width: 1180px;
